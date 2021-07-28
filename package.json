@@ -1,0 +1,27 @@
+{
+  "name": "lamda_rds",
+  "version": "1.0.0",
+  "description": "AWS Lamda / rds 연동",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimkevin90/lamda_rds.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimkevin90/lamda_rds/issues"
+  },
+  "homepage": "https://github.com/kimkevin90/lamda_rds#readme",
+  "dependencies": {
+    "aws-lambda": "^1.0.6",
+    "aws-sdk": "^2.954.0",
+    "knex": "^0.95.8",
+    "mysql": "^2.18.1",
+    "uuid": "^8.3.2"
+  }
+}
